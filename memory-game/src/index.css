@@ -8,6 +8,10 @@ body {
   color: black;
 }
 
+.scoreTable{
+  text-align: center;
+}
+
 /*!
  * Bootswatch v4.0.0
  * Homepage: https://bootswatch.com
