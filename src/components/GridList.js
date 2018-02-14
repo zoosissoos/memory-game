@@ -94,7 +94,7 @@ class GameGrid extends Component {
 
   //handles user guesses by checking to see if the item is already in the state's alreadyGuessed
   guess = (id) =>{
-    let preSelect = this.state.alreadySelected.slice();
+    const preSelect = this.state.alreadySelected.slice();
     console.log(`preSelect: ${preSelect}`)  
     if(preSelect.includes(id)){
       this.newGame();
@@ -183,6 +183,6 @@ class GameGrid extends Component {
       </div>
     )
   }
-}
+};
 
 export default GameGrid;
