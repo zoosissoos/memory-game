@@ -20,62 +20,62 @@ const styles = {
 const tilesData = [
   {
     id: 0,
-    img: './images/tywin.jpg',
+    img: require('../images/tywin.jpg'),
     name: 'tywin'
   },
   {
     id: 1,
-    img: './images/johnsnow.jpg',
+    img: require('../images/johnsnow.jpg'),
     name: 'johnsnow'
   },
   {
     id: 2,
-    img: './images/sansa.jpg',
+    img: require('../images/sansa.jpg'),
     name: 'sansa'
   },
   {
     id: 3,
-    img: './images/ygritte.jpg',
+    img: require('../images/ygritte.jpg'),
     name: 'ygritte'
   },
   {
     id: 4,
-    img: './images/whitewalker.jpg',
+    img: require('../images/whitewalker.jpg'),
     name: 'whitewalker'
   },
   {
     id: 5,
-    img: './images/cersi.jpg',
+    img: require('../images/cersi.jpg'),
     name: 'cersi'
   },
   {
     id: 6,
-    img: './images/tyrion.jpg',
+    img: require('../images/tyrion.jpg'),
     name: 'tyrion'
   },
   {
     id: 7,
-    img: './images/daenerys.jpg',
+    img: require('../images/daenerys.jpg'),
     name: 'daenerys'
   },
   {
     id : 8,
-    img: './images/thehound.jpg',
+    img: require('../images/thehound.jpg'),
     name: 'thehound'
   },
   {
     id : 9,
-    img: './images/arya.jpg',
+    img: require('../images/arya.jpg'),
     name: 'arya'
   },
   {
     id : 10,
-    img: './images/ned.jpg',
+    img: require('../images/ned.jpg'),
     name: 'ned'
   },
   {
     id : 11,
-    img: './images/joffrey.jpg',
+    img: require('../images/joffrey.jpg'),
     name: 'joffrey'
   },
 ];
