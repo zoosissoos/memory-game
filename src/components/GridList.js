@@ -151,7 +151,7 @@ class GameGrid extends Component {
       })
     }
   }
-
+  //renders the page
   render() {
     return (
       <div className = "container">
@@ -162,12 +162,12 @@ class GameGrid extends Component {
           <div className = "col-10">
             <div style={styles.root}>
               <MuiThemeProvider>
-            < GridList
+              < GridList
                 cellHeight={160}
                 style={styles.gridList}
                 cols = {4}
                 padding= {25}
-            >
+              >
               {this.state.tiles.map((tile) => (
                 <GridTile key={tile.id} onClick={() => this.guess(tile.id)}>
                   <img src={tile.img} alt={tile.name}/>

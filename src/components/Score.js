@@ -1,5 +1,6 @@
 import React from 'react';
 
+//scoreboard functional component
 const Score = (props) =>
 <div className = "container scoreTable">
   <div className = "row">

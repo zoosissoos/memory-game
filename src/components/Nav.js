@@ -1,6 +1,6 @@
 import React from 'react';
 
-//navbar with github link
+//navbar with github link functional component
 const Nav = () =>
 <nav className="navbar navbar-expand-lg navbar-light bg-light">
   <a className="navbar-brand" id = "titletext">Game of Memory</a>

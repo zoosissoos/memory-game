@@ -1,5 +1,6 @@
 import React from 'react';
 
+//welcome jumbotron functional component
 const Welcome = () => 
   <div className="jumbotron">
     <h5 className="display-2">Hello, friend.</h5>
