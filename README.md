@@ -6,17 +6,19 @@ This is a Memory game demonstrating React state and functional components. To pl
 
 You may run locally otherwise below is a link to the deployed project. 
 
-### Prerequisites/Technologies Used
+## Prerequisites/Technologies Used
 
-React
-material-ui
-GitHub Pages
+* Javascript
+* Node.js
+* React.js
+* material-ui
+* GitHub Pages
 
 ### Installing
 
 In Terminal once in root directory:
--perform "yarn install" 
--followed by "yarn start"
+1) perform "yarn install"
+2) perform  "yarn start"
 
 ### Future development
 
